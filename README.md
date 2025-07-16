@@ -146,18 +146,6 @@ This system can be used for:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@software{flu_medication_predictor,
-  title={Flu Medication Dosage Prediction Using Genetic Markers},
-  author={Your Name},
-  year={2025},
-  url={https://github.com/yourusername/flu-medication-predictor}
-}
-```
 
 
 ## Acknowledgments
