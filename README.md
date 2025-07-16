@@ -142,11 +142,6 @@ This system can be used for:
 - **Transparency**: Open-source interpretable models
 - **Accountability**: Clear limitations and medical supervision requirements
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
 
 ## Acknowledgments
 
