@@ -47,74 +47,6 @@ This project implements a machine learning system that predicts appropriate flu 
 - Fever level
 - Body mass index (BMI)
 
-## Installation
-
-### Prerequisites
-
-```bash
-pip install pandas numpy scikit-learn joblib
-```
-
-### Setup
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/flu-medication-predictor.git
-cd flu-medication-predictor
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the model training:
-```bash
-python flu_medication_predictor.py
-```
-
-## Usage
-
-### Basic Usage
-
-```python
-import pandas as pd
-from flu_medication_predictor import predict_flu_medication
-
-# Create patient data
-patient_data = pd.DataFrame({
-    'CYP2D6_activity': ['normal'],
-    'IFITM3_rs12252': ['CT'],
-    'IL17_expression': [55],
-    'ACE2_receptor': [90],
-    'HLA_type': ['B'],
-    'age': [45],
-    'weight_kg': [75],
-    'height_cm': [175],
-    'sex': ['M'],
-    'bmi': [24.5],
-    'liver_function': [1.1],
-    'kidney_function': [0.9],
-    'symptom_severity': [7],
-    'fever_celsius': [38.9],
-    'days_since_symptoms': [1]
-})
-
-# Get recommendation
-result = predict_flu_medication(patient_data)
-print(f"Recommendation: {result['recommendation']}")
-```
-
-### Output Format
-
-```python
-{
-    'recommended_medication': 'oseltamivir',
-    'recommended_dosage': 75.0,
-    'recommendation': 'Oseltamivir: 75.0mg twice daily for 5 days'
-}
-```
-
 ## Model Performance
 
 The system uses two Random Forest models:
@@ -227,11 +159,6 @@ If you use this code in your research, please cite:
 }
 ```
 
-## Contact
-
-- **Author**: Your Name
-- **Email**: your.email@example.com
-- **Project Link**: https://github.com/yourusername/flu-medication-predictor
 
 ## Acknowledgments
 
